@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    height: 100px;
+    border-bottom: solid 2px rgb(178, 41, 46);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo-header {
+    width: 180px;
+    margin-left: 2vw;
+}
+
+header .logo-header img {
+    width: 100%;
+}
+
+header nav.nav-header a {
+    color: black;
+    text-decoration: none;
+    margin-right: 2vw;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    height: 120px;
+    background-color: rgb(0, 37, 84);
+}
+
+.contenedor-footer {
+    width: 33vw;
+}
+
+.innov-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innov-footer img {
+    width: 75px;
+}
+
+footer .gobierno-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25PX;
+}
+
+footer a,
+footer p {
+    color: white;
+    text-decoration: none;
+}
+
+footer .redes-footer {
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .fa-brands {
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: #aab8c2;
+}
+
+footer .innov-footer img:hover {
+    filter: brightness(80%);
+}

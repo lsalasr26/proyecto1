@@ -1,0 +1,68 @@
+/* Estilos CSS */
+.info-tabla {
+    border-collapse: collapse;
+    border: 2px solid #002554;
+    width: 100%;
+    color: #002554; /* Azul */
+    font-family: Arial, sans-serif;
+}
+
+.info-tabla th, .info-tabla td {
+    padding: 15px;
+    text-align: left;
+}
+
+.info-tabla th {
+    background-color: #002554; /* Azul */
+    color: #FFFFFF; /* Blanco */
+}
+
+.info-tabla tr:nth-child(even) {
+    background-color: #D0D3D4; /* Gris */
+}
+
+.info-tabla tr:hover {
+    background-color: #CC5500; /* Naranja */
+    color: #FFFFFF; /* Blanco */
+}
+
+.info-tabla .fa-sharp:hover, .info-tabla .fa-solid:hover{
+    color: #D0D3D4;
+    cursor: pointer;
+}
+.info-tabla .acciones{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Estilo input */
+.input-texto {
+    font-family: Arial, sans-serif;
+    color: #002554; /* Azul Oscuro */
+    background-color: #FFFFFF; /* Blanco */
+    border: 2px solid #002554; /* Azul Oscuro */
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+    transition: border-color 0.5s, color 0.5s;
+}
+
+.input-texto:focus {
+    border-color: #CC5500; /* Naranja */
+    color: #CC5500; /* Naranja */
+}
+
+
+.input-texto::placeholder {
+    color: #D0D3D4; /* Gris Claro */
+}
+
+/* Estilos de flex para el div de botón y filtro */
+.filtro-boton{
+    display:flex;
+    justify-content: space-between;
+}
+
